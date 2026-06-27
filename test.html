@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery Application</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo-name">
+          <h2>Foodie.</h2>
+        </div>
+
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="desktop-action">
+          <a href="#" class="cart-icon">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <span class="cart-value">0</span>
+          </a>
+
+          <a href="#" class="sign-btn">
+            Sign In
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </a>
+
+          <a href="#" class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+
+        <div class="mobile-list">
+          <ul class="mobile-menu">
+            <li>
+              <a href="#" class="sign-btn">
+                Sign In
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              </a>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="hero-section">
+          <div class="hero-content">
+            <h1><span>Enjoy</span> Your Delicious <span>Food..</span></h1>
+            <p>
+              We will fill your tummy with delicious food with fast delivery.
+            </p>
+
+            <div class="social-btn">
+              <a href="#" class="btn">Order Now</a>
+              <a href="#" class="social-icon insta-icon"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="#" class="social-icon facebook-icon"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon twitter-icon"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="#" class="social-icon google-icon"
+                ><i class="fa-brands fa-google-plus-g"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="image-content">
+            <img class="main-img" src="delivery-boy.png" alt="Delivery Boy" />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top">
+          <div class="text-center">
+            <h5>Our Services</h5>
+            <h2>How does it work?</h2>
+          </div>
+
+          <div class="service-features">
+            <div class="service-card">
+              <img src="easy-to-order.png" alt="Easy To Order" />
+              <h2>Easy To Order</h2>
+              <p>You only need a few steps in ordering food.</p>
+            </div>
+
+            <div class="service-card">
+              <img src="fast-delivery.png" alt="Fast Delivery" />
+              <h2>Fast Delivery</h2>
+              <p>Delivery that is always on time and faster.</p>
+            </div>
+
+            <div class="service-card">
+              <img src="best-quality.png" alt="Best Quality" />
+              <h2>Best Quality</h2>
+              <p>Not only fast, our quality is also number one.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="menu-container">
+          <div class="text-center">
+            <h5>Our Menu</h5>
+            <h2>The Most Popular</h2>
+          </div>
+
+          <div class="card-list">
+            <div class="menu-card">
+              <div class="img"><img src="burger.png" alt="Burger" /></div>
+              <h2>Double Beef Burger</h2>
+              <p>$9.67</p>
+              <div class="add-cart">
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="img">
+                <img src="chicken-roll.png" alt="Chicken Roll" />
+              </div>
+              <h2>Chicken Roll</h2>
+              <p>$7.50</p>
+              <div class="add-cart">
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="img">
+                <img src="fried-chicken.png" alt="Fried Chicken" />
+              </div>
+              <h2>Fried Chicken</h2>
+              <p>$13.45</p>
+              <div class="add-cart">
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="img"><img src="pizza.png" alt="Pizza" /></div>
+              <h2>Veggie Pizza</h2>
+              <p>$10.99</p>
+              <div class="add-cart">
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="img"><img src="sandwich.png" alt="Sandwich" /></div>
+              <h2>Sub Sandwich</h2>
+              <p>$6.99</p>
+              <div class="add-cart">
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="img">
+                <img src="spring-roll.png" alt="Spring Roll" />
+              </div>
+              <h2>Spring Roll</h2>
+              <p>$9.31</p>
+              <div class="add-cart">
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="img"><img src="spaghetti.png" alt="Spaghetti" /></div>
+              <h2>Italian Spaghetti</h2>
+              <p>$7.65</p>
+              <div class="add-cart">
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="img"><img src="lasagna.png" alt="Lasagna" /></div>
+              <h2>Chicken Lasagna</h2>
+              <p>$16.45</p>
+              <div class="add-cart">
+                <button class="add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper review-wrapper">
+          <div class="image-container">
+            <img src="delivery-boy-with-phone.png" alt="Delivery Boy Phone" />
+          </div>
+
+          <div class="review-content">
+            <h5>Our Review</h5>
+            <h2>What They Say?</h2>
+
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="flex">
+                    <div class="profile">
+                      <img src="profile1.jpeg" alt="Guy" />
+                    </div>
+                    <div>
+                      <h4>Guy Hawkins</h4>
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquam, velit! Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Ipsam, reiciendis?
+                  </p>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="flex">
+                    <div class="profile">
+                      <img src="profile2.jpeg" alt="Sarah" />
+                    </div>
+                    <div>
+                      <h4>Sarah Johnson</h4>
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    The food was absolutely amazing and the delivery was very
+                    fast. Everything arrived fresh and hot. Highly recommended!
+                  </p>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="flex">
+                    <div class="profile">
+                      <img src="profile3.jpeg" alt="Michael" />
+                    </div>
+                    <div>
+                      <h4>Michael Brown</h4>
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    Great service and excellent food quality. The ordering
+                    process was simple and delivery arrived right on time.
+                  </p>
+                </div>
+              </div>
+
+              <div class="swiper-move-btn">
+                <a href="#" class="arrow" id="prev"
+                  ><i class="fa-solid fa-arrow-left"></i
+                ></a>
+                <a href="#" class="arrow" id="next"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
